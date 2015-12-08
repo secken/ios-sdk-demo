@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1800D9461BBB9E90006809D2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800D9451BBB9E90006809D2 /* AVFoundation.framework */; };
+		1800D96E1BBBBA56006809D2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800D9581BBBAFE4006809D2 /* AudioToolbox.framework */; };
+		1863FC331BB560D30014389F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1863FC321BB560D30014389F /* SystemConfiguration.framework */; };
+		1863FC351BB560F50014389F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1863FC341BB560F40014389F /* MobileCoreServices.framework */; };
+		1863FC411BB566CE0014389F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1863FC401BB566CE0014389F /* UIKit.framework */; };
+		1863FC431BB566D90014389F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1863FC421BB566D90014389F /* Foundation.framework */; };
+		189F92031BB023340021E473 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F92021BB023340021E473 /* main.m */; };
+		189F92061BB023340021E473 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F92051BB023340021E473 /* AppDelegate.m */; };
+		189F92091BB023340021E473 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F92081BB023340021E473 /* ViewController.m */; };
+		189F920C1BB023340021E473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F920A1BB023340021E473 /* Main.storyboard */; };
+		189F920E1BB023340021E473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189F920D1BB023340021E473 /* Assets.xcassets */; };
+		189F92111BB023340021E473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F920F1BB023340021E473 /* LaunchScreen.storyboard */; };
+		189F921F1BB024160021E473 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F921E1BB024160021E473 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		189F922B1BB02A890021E473 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F922A1BB02A890021E473 /* libz.tbd */; };
+		18C740941BCD1D0F00102F14 /* SeckenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; };
+		18C740951BCD1D0F00102F14 /* SeckenSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18C740971BCD1D1800102F14 /* SeckenSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; };
+		18D5F4271BBB7D140096C84E /* TestFace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D5F4261BBB7D140096C84E /* TestFace.jpg */; settings = {ASSET_TAGS = (); }; };
+		18ED40931BC76A2100D80790 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800D96F1BBBBD84006809D2 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18C740961BCD1D0F00102F14 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				18C740951BCD1D0F00102F14 /* SeckenSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1800D9451BBB9E90006809D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1800D9581BBBAFE4006809D2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1800D96F1BBBBD84006809D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1863FC321BB560D30014389F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1863FC341BB560F40014389F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1863FC401BB566CE0014389F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1863FC421BB566D90014389F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		189F91FE1BB023340021E473 /* SeckenDemoAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeckenDemoAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189F92021BB023340021E473 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189F92041BB023340021E473 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189F92051BB023340021E473 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189F92071BB023340021E473 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		189F92081BB023340021E473 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		189F920B1BB023340021E473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189F920D1BB023340021E473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189F92101BB023340021E473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189F92121BB023340021E473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189F921D1BB024160021E473 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		189F921E1BB024160021E473 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		189F922A1BB02A890021E473 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18C740931BCD1D0F00102F14 /* SeckenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SeckenSDK.framework; path = SeckenDemoAPI/SeckenSDK.framework; sourceTree = "<group>"; };
+		18D5F4261BBB7D140096C84E /* TestFace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestFace.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189F91FB1BB023340021E473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ED40931BC76A2100D80790 /* Security.framework in Frameworks */,
+				18C740941BCD1D0F00102F14 /* SeckenSDK.framework in Frameworks */,
+				1800D96E1BBBBA56006809D2 /* AudioToolbox.framework in Frameworks */,
+				1800D9461BBB9E90006809D2 /* AVFoundation.framework in Frameworks */,
+				1863FC431BB566D90014389F /* Foundation.framework in Frameworks */,
+				1863FC411BB566CE0014389F /* UIKit.framework in Frameworks */,
+				1863FC351BB560F50014389F /* MobileCoreServices.framework in Frameworks */,
+				1863FC331BB560D30014389F /* SystemConfiguration.framework in Frameworks */,
+				189F922B1BB02A890021E473 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189F91F51BB023340021E473 = {
+			isa = PBXGroup;
+			children = (
+				18C740931BCD1D0F00102F14 /* SeckenSDK.framework */,
+				1800D96F1BBBBD84006809D2 /* Security.framework */,
+				1800D9581BBBAFE4006809D2 /* AudioToolbox.framework */,
+				1800D9451BBB9E90006809D2 /* AVFoundation.framework */,
+				1863FC421BB566D90014389F /* Foundation.framework */,
+				1863FC401BB566CE0014389F /* UIKit.framework */,
+				1863FC341BB560F40014389F /* MobileCoreServices.framework */,
+				1863FC321BB560D30014389F /* SystemConfiguration.framework */,
+				189F922A1BB02A890021E473 /* libz.tbd */,
+				189F92001BB023340021E473 /* SeckenDemoAPI */,
+				189F91FF1BB023340021E473 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189F91FF1BB023340021E473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189F91FE1BB023340021E473 /* SeckenDemoAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189F92001BB023340021E473 /* SeckenDemoAPI */ = {
+			isa = PBXGroup;
+			children = (
+				189F92041BB023340021E473 /* AppDelegate.h */,
+				189F92051BB023340021E473 /* AppDelegate.m */,
+				189F92071BB023340021E473 /* ViewController.h */,
+				189F92081BB023340021E473 /* ViewController.m */,
+				189F921D1BB024160021E473 /* MainViewController.h */,
+				189F921E1BB024160021E473 /* MainViewController.m */,
+				18D5F4251BBB7D140096C84E /* TestImg */,
+				189F920A1BB023340021E473 /* Main.storyboard */,
+				189F920D1BB023340021E473 /* Assets.xcassets */,
+				189F920F1BB023340021E473 /* LaunchScreen.storyboard */,
+				189F92121BB023340021E473 /* Info.plist */,
+				189F92011BB023340021E473 /* Supporting Files */,
+			);
+			path = SeckenDemoAPI;
+			sourceTree = "<group>";
+		};
+		189F92011BB023340021E473 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189F92021BB023340021E473 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D5F4251BBB7D140096C84E /* TestImg */ = {
+			isa = PBXGroup;
+			children = (
+				18D5F4261BBB7D140096C84E /* TestFace.jpg */,
+			);
+			path = TestImg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189F91FD1BB023340021E473 /* SeckenDemoAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189F92151BB023340021E473 /* Build configuration list for PBXNativeTarget "SeckenDemoAPI" */;
+			buildPhases = (
+				189F91FA1BB023340021E473 /* Sources */,
+				189F91FB1BB023340021E473 /* Frameworks */,
+				189F91FC1BB023340021E473 /* Resources */,
+				18C740961BCD1D0F00102F14 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeckenDemoAPI;
+			productName = SeckenDemoAPI;
+			productReference = 189F91FE1BB023340021E473 /* SeckenDemoAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189F91F61BB023340021E473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Secken_ck;
+				TargetAttributes = {
+					189F91FD1BB023340021E473 = {
+						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 189F91F91BB023340021E473 /* Build configuration list for PBXProject "SeckenDemoAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189F91F51BB023340021E473;
+			productRefGroup = 189F91FF1BB023340021E473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189F91FD1BB023340021E473 /* SeckenDemoAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189F91FC1BB023340021E473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C740971BCD1D1800102F14 /* SeckenSDK.framework in Resources */,
+				189F92111BB023340021E473 /* LaunchScreen.storyboard in Resources */,
+				189F920E1BB023340021E473 /* Assets.xcassets in Resources */,
+				18D5F4271BBB7D140096C84E /* TestFace.jpg in Resources */,
+				189F920C1BB023340021E473 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189F91FA1BB023340021E473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189F92091BB023340021E473 /* ViewController.m in Sources */,
+				189F92061BB023340021E473 /* AppDelegate.m in Sources */,
+				189F92031BB023340021E473 /* main.m in Sources */,
+				189F921F1BB024160021E473 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		189F920A1BB023340021E473 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189F920B1BB023340021E473 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189F920F1BB023340021E473 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189F92101BB023340021E473 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189F92131BB023340021E473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		189F92141BB023340021E473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189F92161BB023340021E473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/SeckenDemoAPI/Secken",
+					"$(PROJECT_DIR)/SeckenDemoAPI",
+					"$(PROJECT_DIR)/SeckenDemoAPI/SECKEN",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Secken/include/";
+				INFOPLIST_FILE = SeckenDemoAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SeckenDemoAPI/Secken",
+					"$(PROJECT_DIR)/SeckenDemoAPI/Secken/include",
+					"$(PROJECT_DIR)/SeckenDemoAPI/SECKEN",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secken.apisdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2c27ad7c-67a2-4af7-932e-a7ac732a0caa";
+				STRIP_BITCODE_FROM_COPIED_FILES = NO;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		189F92171BB023340021E473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/SeckenDemoAPI/Secken",
+					"$(PROJECT_DIR)/SeckenDemoAPI",
+					"$(PROJECT_DIR)/SeckenDemoAPI/SECKEN",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Secken/include/";
+				INFOPLIST_FILE = SeckenDemoAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SeckenDemoAPI/Secken",
+					"$(PROJECT_DIR)/SeckenDemoAPI/Secken/include",
+					"$(PROJECT_DIR)/SeckenDemoAPI/SECKEN",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secken.apisdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2c27ad7c-67a2-4af7-932e-a7ac732a0caa";
+				STRIP_BITCODE_FROM_COPIED_FILES = NO;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189F91F91BB023340021E473 /* Build configuration list for PBXProject "SeckenDemoAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189F92131BB023340021E473 /* Debug */,
+				189F92141BB023340021E473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189F92151BB023340021E473 /* Build configuration list for PBXNativeTarget "SeckenDemoAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189F92161BB023340021E473 /* Debug */,
+				189F92171BB023340021E473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189F91F61BB023340021E473 /* Project object */;
+}

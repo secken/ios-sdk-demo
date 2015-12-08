@@ -1,0 +1,6 @@
+framework module SeckenSDK {
+  umbrella header "SeckenSDK.h"
+
+  export *
+  module * { export * }
+}
