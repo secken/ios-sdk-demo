@@ -19,12 +19,13 @@
 		189F920C1BB023340021E473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F920A1BB023340021E473 /* Main.storyboard */; };
 		189F920E1BB023340021E473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189F920D1BB023340021E473 /* Assets.xcassets */; };
 		189F92111BB023340021E473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F920F1BB023340021E473 /* LaunchScreen.storyboard */; };
-		189F921F1BB024160021E473 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F921E1BB024160021E473 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		189F921F1BB024160021E473 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F921E1BB024160021E473 /* MainViewController.m */; };
 		189F922B1BB02A890021E473 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F922A1BB02A890021E473 /* libz.tbd */; };
 		18C740941BCD1D0F00102F14 /* SeckenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; };
 		18C740951BCD1D0F00102F14 /* SeckenSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18C740971BCD1D1800102F14 /* SeckenSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; };
-		18D5F4271BBB7D140096C84E /* TestFace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D5F4261BBB7D140096C84E /* TestFace.jpg */; settings = {ASSET_TAGS = (); }; };
+		18CC5D4E1C4355C500372186 /* VoiceImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CC5D4D1C4355C500372186 /* VoiceImage.bundle */; };
+		18D5F4271BBB7D140096C84E /* TestFace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D5F4261BBB7D140096C84E /* TestFace.jpg */; };
 		18ED40931BC76A2100D80790 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800D96F1BBBBD84006809D2 /* Security.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		189F921E1BB024160021E473 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		189F922A1BB02A890021E473 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		18C740931BCD1D0F00102F14 /* SeckenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SeckenSDK.framework; path = SeckenDemoAPI/SeckenSDK.framework; sourceTree = "<group>"; };
+		18CC5D4D1C4355C500372186 /* VoiceImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = VoiceImage.bundle; path = "../../../../../../../../Downloads/ios-sdk-demo-master/Secken_iOS_SDK/example/SeckenDemoAPI/SeckenDemoAPI/VoiceImage.bundle"; sourceTree = "<group>"; };
 		18D5F4261BBB7D140096C84E /* TestFace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestFace.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 		189F92001BB023340021E473 /* SeckenDemoAPI */ = {
 			isa = PBXGroup;
 			children = (
+				18CC5D4D1C4355C500372186 /* VoiceImage.bundle */,
 				189F92041BB023340021E473 /* AppDelegate.h */,
 				189F92051BB023340021E473 /* AppDelegate.m */,
 				189F92071BB023340021E473 /* ViewController.h */,
@@ -214,6 +217,7 @@
 				189F92111BB023340021E473 /* LaunchScreen.storyboard in Resources */,
 				189F920E1BB023340021E473 /* Assets.xcassets in Resources */,
 				18D5F4271BBB7D140096C84E /* TestFace.jpg in Resources */,
+				18CC5D4E1C4355C500372186 /* VoiceImage.bundle in Resources */,
 				189F920C1BB023340021E473 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

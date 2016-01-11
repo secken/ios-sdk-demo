@@ -19,7 +19,7 @@
 		18C7416E1BCE600F00102F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7416C1BCE600F00102F14 /* Main.storyboard */; };
 		18C741701BCE600F00102F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C7416F1BCE600F00102F14 /* Assets.xcassets */; };
 		18C741731BCE600F00102F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C741711BCE600F00102F14 /* LaunchScreen.storyboard */; };
-		18C7417E1BCE607700102F14 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7417D1BCE607700102F14 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18C7417E1BCE607700102F14 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7417D1BCE607700102F14 /* MainViewController.m */; };
 		18C742EC1BCE698600102F14 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C742EB1BCE698600102F14 /* SystemConfiguration.framework */; };
 		18C742EE1BCE698E00102F14 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C742ED1BCE698E00102F14 /* MobileCoreServices.framework */; };
 		18C742F01BCE699300102F14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C742EF1BCE699300102F14 /* UIKit.framework */; };
@@ -28,6 +28,7 @@
 		18C742F61BCE69A800102F14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C742F51BCE69A800102F14 /* AVFoundation.framework */; };
 		18C742F81BCE69AD00102F14 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C742F71BCE69AD00102F14 /* Security.framework */; };
 		18C742FA1BCE69B300102F14 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C742F91BCE69B300102F14 /* libz.tbd */; };
+		18CC5D501C4355FE00372186 /* VoiceImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CC5D4F1C4355FE00372186 /* VoiceImage.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		18C742F51BCE69A800102F14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		18C742F71BCE69AD00102F14 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		18C742F91BCE69B300102F14 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18CC5D4F1C4355FE00372186 /* VoiceImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VoiceImage.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		18C741621BCE600F00102F14 /* SeckenDemoUI */ = {
 			isa = PBXGroup;
 			children = (
+				18CC5D4F1C4355FE00372186 /* VoiceImage.bundle */,
 				181EFFED1BCFF0F400619D19 /* SeckenDemoUI.entitlements */,
 				18C741661BCE600F00102F14 /* AppDelegate.h */,
 				18C741671BCE600F00102F14 /* AppDelegate.m */,
@@ -229,6 +232,7 @@
 				181EFFEB1BCFEBB200619D19 /* SeckenSDK.framework in Resources */,
 				18C741731BCE600F00102F14 /* LaunchScreen.storyboard in Resources */,
 				18C741701BCE600F00102F14 /* Assets.xcassets in Resources */,
+				18CC5D501C4355FE00372186 /* VoiceImage.bundle in Resources */,
 				18C7416E1BCE600F00102F14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
