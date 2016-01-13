@@ -17,6 +17,10 @@
 
 @property (nonatomic, strong)   UILabel     * titleLab;                 //导航的标题 (Title)
 @property (nonatomic, strong)   UIButton    * cancelBtn;                //取消按钮  (Cancel)
+@property (nonatomic, strong)   NSString    * strUsername;              //用户名（Username）
+@property (nonatomic, strong)   NSString    * strToken;                 //Token（Token）
+
+@property (nonatomic, assign)   BOOL        isShowAlert;                //是否显示录音错误的提示，NO表示不显示，默认为NO
 
 
 /*

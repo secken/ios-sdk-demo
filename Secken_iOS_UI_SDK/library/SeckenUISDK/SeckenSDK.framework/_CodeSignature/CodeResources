@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/SeckenVoiceTrain.h</key>
 		<data>
-		Mz4845SICMCDPRpbsLfqgaMOSjs=
+		6N94JPMfvb7vlrwcZ7T83Eyt+78=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DniiUwxfnOaPhrEl4o9TWOVk850=
+		Fi/kEKaZqt2R7nWg9PkK4uK5szE=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -31,6 +31,34 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		pN+rQWTLE2uxHqQQx8fixt3yhmE=
+		</data>
+		<key>SeckenImage.bundle/btn_hold_one@2x.png</key>
+		<data>
+		15233b/XPzU7sEkBUf2W6EkOX4w=
+		</data>
+		<key>SeckenImage.bundle/btn_hold_thr@2x.png</key>
+		<data>
+		iBUdK0NM/o3Dsygw3XywMDFS1Bg=
+		</data>
+		<key>SeckenImage.bundle/btn_hold_two@2x.png</key>
+		<data>
+		ST4cClqBwR+LPkQq12rGhHZYS2M=
+		</data>
+		<key>SeckenImage.bundle/btn_mic@2x.png</key>
+		<data>
+		Amdnsxis/hOMb3oLKEiY0WzCpfk=
+		</data>
+		<key>SeckenImage.bundle/btn_mic_sel@2x.png</key>
+		<data>
+		kkN6GEAlAnw/VgUM4R0U0JU6Qzs=
+		</data>
+		<key>SeckenImage.bundle/btn_tip@2x.png</key>
+		<data>
+		+JubDerS8JbI6YkC6+50vaFhetU=
+		</data>
+		<key>SeckenImage.bundle/btn_tip_en@2x.png</key>
+		<data>
+		mrgNOtZkGaC+yehx9c/LSAdQbx0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -49,7 +77,7 @@
 		</data>
 		<key>Headers/SeckenVoiceTrain.h</key>
 		<data>
-		Mz4845SICMCDPRpbsLfqgaMOSjs=
+		6N94JPMfvb7vlrwcZ7T83Eyt+78=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -58,6 +86,34 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		pN+rQWTLE2uxHqQQx8fixt3yhmE=
+		</data>
+		<key>SeckenImage.bundle/btn_hold_one@2x.png</key>
+		<data>
+		15233b/XPzU7sEkBUf2W6EkOX4w=
+		</data>
+		<key>SeckenImage.bundle/btn_hold_thr@2x.png</key>
+		<data>
+		iBUdK0NM/o3Dsygw3XywMDFS1Bg=
+		</data>
+		<key>SeckenImage.bundle/btn_hold_two@2x.png</key>
+		<data>
+		ST4cClqBwR+LPkQq12rGhHZYS2M=
+		</data>
+		<key>SeckenImage.bundle/btn_mic@2x.png</key>
+		<data>
+		Amdnsxis/hOMb3oLKEiY0WzCpfk=
+		</data>
+		<key>SeckenImage.bundle/btn_mic_sel@2x.png</key>
+		<data>
+		kkN6GEAlAnw/VgUM4R0U0JU6Qzs=
+		</data>
+		<key>SeckenImage.bundle/btn_tip@2x.png</key>
+		<data>
+		+JubDerS8JbI6YkC6+50vaFhetU=
+		</data>
+		<key>SeckenImage.bundle/btn_tip_en@2x.png</key>
+		<data>
+		mrgNOtZkGaC+yehx9c/LSAdQbx0=
 		</data>
 	</dict>
 	<key>rules</key>
