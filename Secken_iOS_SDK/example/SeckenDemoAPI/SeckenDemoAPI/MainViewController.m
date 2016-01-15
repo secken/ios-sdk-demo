@@ -415,47 +415,95 @@
 }
 
 
+//
+//-(void)clickVoiceTrain{
+//    
+//    NSString * userName = self.username;
+//    NSString * token = self.token;
+//    CGRect vTrainRect = CGRectMake( 0,
+//                                    0,
+//                                   [UIScreen mainScreen].bounds.size.width,
+//                                   [UIScreen mainScreen].bounds.size.height);
+//    voiceTrain = [[SeckenVoiceTrain alloc] initWithFrame:vTrainRect];
+//
+//    //voiceTrain.titleLab.text = @"";  可以自定义导航Title的名称
+//    
+//    [self.view addSubview:voiceTrain];
+//    
+//    voiceTrain.resultBlock = ^(id operation){
+//    
+//        
+//        [[SeckenSDK currSeckenSDK] voiceTrainUserName:userName
+//                                                token:token
+//                                    voiceTrainSuccess:^(id operation)
+//         {
+//             UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Voice Train(成功)"
+//                                                           message:[operation description]
+//                                                          delegate:nil
+//                                                 cancelButtonTitle:nil
+//                                                 otherButtonTitles:@"OK (确定)", nil];
+//             [al show];
+//             
+//         } voiceTrainFail:^(id operation) {
+//             UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Voice Train Fail(失败)"
+//                                                           message:[operation description]
+//                                                          delegate:nil
+//                                                 cancelButtonTitle:nil
+//                                                 otherButtonTitles:@"OK (确定)", nil];
+//             [al show];
+//             
+//             
+//         }];
+//        
+//
+//        
+//    };
+//    
+//    //[voiceTrain resultBlock:^(id operation) {
+//    //     }];
+//    [voiceTrain.cancelBtn addTarget:self action:@selector(reMoveVoiceTrain) forControlEvents:UIControlEventTouchUpInside];
+//}
 
 -(void)clickVoiceTrain{
     
     NSString * userName = self.username;
     NSString * token = self.token;
     CGRect vTrainRect = CGRectMake( 0,
-                                    0,
+                                   0,
                                    [UIScreen mainScreen].bounds.size.width,
                                    [UIScreen mainScreen].bounds.size.height);
     voiceTrain = [[SeckenVoiceTrain alloc] initWithFrame:vTrainRect];
-
+    
     //voiceTrain.titleLab.text = @"";  可以自定义导航Title的名称
     
     [self.view addSubview:voiceTrain];
     
     voiceTrain.resultBlock = ^(id operation){
-    
         
-        [[SeckenSDK currSeckenSDK] voiceTrainUserName:userName
-                                                token:token
-                                    voiceTrainSuccess:^(id operation)
-         {
-             UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Voice Train(成功)"
-                                                           message:[operation description]
-                                                          delegate:nil
-                                                 cancelButtonTitle:nil
-                                                 otherButtonTitles:@"OK (确定)", nil];
-             [al show];
-             
-         } voiceTrainFail:^(id operation) {
-             UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Voice Train Fail(失败)"
-                                                           message:[operation description]
-                                                          delegate:nil
-                                                 cancelButtonTitle:nil
-                                                 otherButtonTitles:@"OK (确定)", nil];
-             [al show];
-             
-             
-         }];
-        
-
+        if ([[operation objectForKey:@"hasVoice"] boolValue]) {
+            
+            [[SeckenSDK currSeckenSDK] voiceTrainUserName:userName
+                                                    token:token
+                                        voiceTrainSuccess:^(id operation)
+             {
+                 UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Voice Train(成功)"
+                                                               message:[operation description]
+                                                              delegate:nil
+                                                     cancelButtonTitle:nil
+                                                     otherButtonTitles:@"OK (确定)", nil];
+                 [al show];
+                 
+             } voiceTrainFail:^(id operation) {
+                 UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Voice Train Fail(失败)"
+                                                               message:[operation description]
+                                                              delegate:nil
+                                                     cancelButtonTitle:nil
+                                                     otherButtonTitles:@"OK (确定)", nil];
+                 [al show];
+                 
+                 
+             }];
+        }
         
     };
     
@@ -463,6 +511,7 @@
     //     }];
     [voiceTrain.cancelBtn addTarget:self action:@selector(reMoveVoiceTrain) forControlEvents:UIControlEventTouchUpInside];
 }
+
 
 /*
  移除 SeckenVoiceTrain 视图

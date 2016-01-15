@@ -397,30 +397,29 @@ SeckenVoiceTrain * train = nil;
 
 
 //声纹验证
--(void)clickVoiceConfirm:(id)sender {
+SeckenVoiceConfirm * confirm = nil;
 
-    SCVoiceConfirmController * scVoiceConfirm = [[SCVoiceConfirmController alloc] init];
-    scVoiceConfirm.strToken = self.token;
-    scVoiceConfirm.strUserName = self.username;
-    scVoiceConfirm.strRID = self.rID;
-    scVoiceConfirm.strTitle = @"声纹验证";
-    scVoiceConfirm.successBlock = ^(id operation){
-        
+-(void)clickVoiceConfirm:(id)sender {
+    
+    
+    confirm = [[SeckenVoiceConfirm alloc] initWithFrame:self.view.bounds userNmae:self.username token:self.token SuccessBlock:^(id operation) {
         UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Tip OK(提示成功)" message:[operation description] delegate:nil cancelButtonTitle:@"OK(确定)" otherButtonTitles:nil];
         [al show];
-        
-
-    };
-    
-    scVoiceConfirm.failBlock = ^(id operation){
-        
+                
+    } FailBlock:^(id operation) {
         UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Tip NO(提示失败)" message:[operation description] delegate:nil cancelButtonTitle:@"OK(确定)" otherButtonTitles:nil];
         [al show];
 
-        [self.navigationController popViewControllerAnimated:YES];
-    };
-    [self.navigationController pushViewController:scVoiceConfirm animated:YES];
-    
+    }];
+    [confirm.cancelBtn addTarget:self action:@selector(clickConfirm) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:confirm];
+}
+
+-(void)clickConfirm{
+
+    if (confirm != nil) {
+        [confirm removeFromSuperview];
+    }
 }
 
 
