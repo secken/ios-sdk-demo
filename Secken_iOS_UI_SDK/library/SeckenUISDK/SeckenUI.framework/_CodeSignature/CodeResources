@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/SCFaceTrainController.xib</key>
 		<data>
-		5rv/WCrIBrpEIf2H7mNVtaOwhL4=
+		UOQBfrEkexSd/M85geJUv0O55ts=
 		</data>
 		<key>Headers/SCQRViewController.h</key>
 		<data>
@@ -42,19 +42,91 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6/3mVWB2pJjj2WA+qzR78GdO1kc=
+		94YE3FSiFPdpcNzvl8gA6tdoDrI=
 		</data>
 		<key>SCFaceConfirmController.nib</key>
 		<data>
-		i/R2oaz78emAcz1F5a01IjF4Mv4=
+		lHPXGkE546/D4LiDdUC9AocvtOU=
+		</data>
+		<key>SCFaceConfirmController~ipad.nib/objects-8.0+.nib</key>
+		<data>
+		ABaa5GAwhK5naMakJk1IqaagtFk=
+		</data>
+		<key>SCFaceConfirmController~ipad.nib/objects.nib</key>
+		<data>
+		jXZf9BlFt0QwO8dwnIRlors9sWM=
+		</data>
+		<key>SCFaceConfirmController~ipad.nib/runtime.nib</key>
+		<data>
+		tjFBr4okPAm4C7ZaNM3Tl/vihyo=
+		</data>
+		<key>SCFaceConfirmController~iphone.nib/objects-8.0+.nib</key>
+		<data>
+		tlGhn2cH070ZtOVWNpj9Apw3E3U=
+		</data>
+		<key>SCFaceConfirmController~iphone.nib/objects.nib</key>
+		<data>
+		yF8J2qtOsghABeRwEHm9kSpixqY=
+		</data>
+		<key>SCFaceConfirmController~iphone.nib/runtime.nib</key>
+		<data>
+		CfLvCXNipvqTF83Yryyiy4DR4dk=
 		</data>
 		<key>SCFaceTrainController.nib</key>
 		<data>
-		OJfOwJRRcg3zENHDF9nYRwVQsmk=
+		Ohdh1G1q+NamycHkf7mAXdMNTDk=
+		</data>
+		<key>SCFaceTrainController~ipad.nib/objects-8.0+.nib</key>
+		<data>
+		vsVnq6Kj6kdtlxTKv0m1oZEOblc=
+		</data>
+		<key>SCFaceTrainController~ipad.nib/objects.nib</key>
+		<data>
+		b2FRmLngyeC362HFXJlgzWm3cBw=
+		</data>
+		<key>SCFaceTrainController~ipad.nib/runtime.nib</key>
+		<data>
+		CK5MPfFcRTS+J1FHKmlCiLRYDkA=
+		</data>
+		<key>SCFaceTrainController~iphone.nib/objects-8.0+.nib</key>
+		<data>
+		oQ21hC68F0pjIrV296VBTT1D4OA=
+		</data>
+		<key>SCFaceTrainController~iphone.nib/objects.nib</key>
+		<data>
+		r3cm2dqMdkGYQUCMbwpuEgIJlnk=
+		</data>
+		<key>SCFaceTrainController~iphone.nib/runtime.nib</key>
+		<data>
+		L3HG6Rf9iC0A/b+EgRzzFS8rR0E=
 		</data>
 		<key>SCQRViewController.nib</key>
 		<data>
-		1jSRAhjalHn+5sF0nSHIloUlav4=
+		JHSCT03S8A3XUlWEEoLQnxW02GA=
+		</data>
+		<key>SCQRViewController~ipad.nib/objects-8.0+.nib</key>
+		<data>
+		/144T292flbo2a+wfX0FGNI7pHs=
+		</data>
+		<key>SCQRViewController~ipad.nib/objects.nib</key>
+		<data>
+		zEMaIQm9e8VdJIlFdOZUo4Atn7w=
+		</data>
+		<key>SCQRViewController~ipad.nib/runtime.nib</key>
+		<data>
+		InzIk/V6qdtedcE/2Yl2lgRVa0s=
+		</data>
+		<key>SCQRViewController~iphone.nib/objects-8.0+.nib</key>
+		<data>
+		bfXnIft84kwRtB3S86pjBNcdhXA=
+		</data>
+		<key>SCQRViewController~iphone.nib/objects.nib</key>
+		<data>
+		uU8qsP3T+8ZcMi0LEpCR1aaXgWg=
+		</data>
+		<key>SCQRViewController~iphone.nib/runtime.nib</key>
+		<data>
+		6Tw8J+hKLhC9oqbZ9t0L5agJhoA=
 		</data>
 		<key>default_app_logo@2x.png</key>
 		<data>
@@ -105,7 +177,7 @@
 		</data>
 		<key>Headers/SCFaceTrainController.xib</key>
 		<data>
-		5rv/WCrIBrpEIf2H7mNVtaOwhL4=
+		UOQBfrEkexSd/M85geJUv0O55ts=
 		</data>
 		<key>Headers/SCQRViewController.h</key>
 		<data>
@@ -129,15 +201,87 @@
 		</data>
 		<key>SCFaceConfirmController.nib</key>
 		<data>
-		i/R2oaz78emAcz1F5a01IjF4Mv4=
+		lHPXGkE546/D4LiDdUC9AocvtOU=
+		</data>
+		<key>SCFaceConfirmController~ipad.nib/objects-8.0+.nib</key>
+		<data>
+		ABaa5GAwhK5naMakJk1IqaagtFk=
+		</data>
+		<key>SCFaceConfirmController~ipad.nib/objects.nib</key>
+		<data>
+		jXZf9BlFt0QwO8dwnIRlors9sWM=
+		</data>
+		<key>SCFaceConfirmController~ipad.nib/runtime.nib</key>
+		<data>
+		tjFBr4okPAm4C7ZaNM3Tl/vihyo=
+		</data>
+		<key>SCFaceConfirmController~iphone.nib/objects-8.0+.nib</key>
+		<data>
+		tlGhn2cH070ZtOVWNpj9Apw3E3U=
+		</data>
+		<key>SCFaceConfirmController~iphone.nib/objects.nib</key>
+		<data>
+		yF8J2qtOsghABeRwEHm9kSpixqY=
+		</data>
+		<key>SCFaceConfirmController~iphone.nib/runtime.nib</key>
+		<data>
+		CfLvCXNipvqTF83Yryyiy4DR4dk=
 		</data>
 		<key>SCFaceTrainController.nib</key>
 		<data>
-		OJfOwJRRcg3zENHDF9nYRwVQsmk=
+		Ohdh1G1q+NamycHkf7mAXdMNTDk=
+		</data>
+		<key>SCFaceTrainController~ipad.nib/objects-8.0+.nib</key>
+		<data>
+		vsVnq6Kj6kdtlxTKv0m1oZEOblc=
+		</data>
+		<key>SCFaceTrainController~ipad.nib/objects.nib</key>
+		<data>
+		b2FRmLngyeC362HFXJlgzWm3cBw=
+		</data>
+		<key>SCFaceTrainController~ipad.nib/runtime.nib</key>
+		<data>
+		CK5MPfFcRTS+J1FHKmlCiLRYDkA=
+		</data>
+		<key>SCFaceTrainController~iphone.nib/objects-8.0+.nib</key>
+		<data>
+		oQ21hC68F0pjIrV296VBTT1D4OA=
+		</data>
+		<key>SCFaceTrainController~iphone.nib/objects.nib</key>
+		<data>
+		r3cm2dqMdkGYQUCMbwpuEgIJlnk=
+		</data>
+		<key>SCFaceTrainController~iphone.nib/runtime.nib</key>
+		<data>
+		L3HG6Rf9iC0A/b+EgRzzFS8rR0E=
 		</data>
 		<key>SCQRViewController.nib</key>
 		<data>
-		1jSRAhjalHn+5sF0nSHIloUlav4=
+		JHSCT03S8A3XUlWEEoLQnxW02GA=
+		</data>
+		<key>SCQRViewController~ipad.nib/objects-8.0+.nib</key>
+		<data>
+		/144T292flbo2a+wfX0FGNI7pHs=
+		</data>
+		<key>SCQRViewController~ipad.nib/objects.nib</key>
+		<data>
+		zEMaIQm9e8VdJIlFdOZUo4Atn7w=
+		</data>
+		<key>SCQRViewController~ipad.nib/runtime.nib</key>
+		<data>
+		InzIk/V6qdtedcE/2Yl2lgRVa0s=
+		</data>
+		<key>SCQRViewController~iphone.nib/objects-8.0+.nib</key>
+		<data>
+		bfXnIft84kwRtB3S86pjBNcdhXA=
+		</data>
+		<key>SCQRViewController~iphone.nib/objects.nib</key>
+		<data>
+		uU8qsP3T+8ZcMi0LEpCR1aaXgWg=
+		</data>
+		<key>SCQRViewController~iphone.nib/runtime.nib</key>
+		<data>
+		6Tw8J+hKLhC9oqbZ9t0L5agJhoA=
 		</data>
 		<key>default_app_logo@2x.png</key>
 		<data>

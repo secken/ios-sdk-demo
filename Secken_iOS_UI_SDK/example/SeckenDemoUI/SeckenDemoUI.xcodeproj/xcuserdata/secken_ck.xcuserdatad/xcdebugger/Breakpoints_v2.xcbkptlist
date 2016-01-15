@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SeckenDemoUI/ViewController.m"
-            timestampString = "467091117.210679"
+            timestampString = "474520332.655801"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "219"
-            endingLineNumber = "219"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
             landmarkName = "-clickBind"
             landmarkType = "5">
          </BreakpointContent>
@@ -43,6 +43,38 @@
             endingLineNumber = "340"
             landmarkName = "-clickFaceConfirm:"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MainViewController clickFaceConfirm:]"
+                  moduleName = "SeckenDemoUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/secken_ck/Desktop/SeckenSDK/SDKver/github/Secken_iOS_UI_SDK/example/SeckenDemoUI/SeckenDemoUI/Controller/MainViewController/MainViewController.m"
+                  timestampString = "474520684.273573"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "340"
+                  endingLineNumber = "340"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__39-[MainViewController clickFaceConfirm:]_block_invoke229"
+                  moduleName = "SeckenDemoUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/secken_ck/Desktop/SeckenSDK/SDKver/github/Secken_iOS_UI_SDK/example/SeckenDemoUI/SeckenDemoUI/Controller/MainViewController/MainViewController.m"
+                  timestampString = "474520684.27381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "340"
+                  endingLineNumber = "340"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

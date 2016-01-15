@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1800D9461BBB9E90006809D2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800D9451BBB9E90006809D2 /* AVFoundation.framework */; };
 		1800D96E1BBBBA56006809D2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800D9581BBBAFE4006809D2 /* AudioToolbox.framework */; };
+		18193CCC1C48975300187840 /* SeckenImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18193CCB1C48975300187840 /* SeckenImage.bundle */; };
 		1863FC331BB560D30014389F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1863FC321BB560D30014389F /* SystemConfiguration.framework */; };
 		1863FC351BB560F50014389F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1863FC341BB560F40014389F /* MobileCoreServices.framework */; };
 		1863FC411BB566CE0014389F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1863FC401BB566CE0014389F /* UIKit.framework */; };
@@ -24,7 +25,6 @@
 		18C740941BCD1D0F00102F14 /* SeckenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; };
 		18C740951BCD1D0F00102F14 /* SeckenSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18C740971BCD1D1800102F14 /* SeckenSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; };
-		18CC5D4E1C4355C500372186 /* VoiceImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CC5D4D1C4355C500372186 /* VoiceImage.bundle */; };
 		18D5F4271BBB7D140096C84E /* TestFace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D5F4261BBB7D140096C84E /* TestFace.jpg */; };
 		18ED40931BC76A2100D80790 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800D96F1BBBBD84006809D2 /* Security.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +47,7 @@
 		1800D9451BBB9E90006809D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1800D9581BBBAFE4006809D2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1800D96F1BBBBD84006809D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18193CCB1C48975300187840 /* SeckenImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SeckenImage.bundle; sourceTree = "<group>"; };
 		1863FC321BB560D30014389F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1863FC341BB560F40014389F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1863FC401BB566CE0014389F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -65,7 +66,6 @@
 		189F921E1BB024160021E473 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		189F922A1BB02A890021E473 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		18C740931BCD1D0F00102F14 /* SeckenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SeckenSDK.framework; path = SeckenDemoAPI/SeckenSDK.framework; sourceTree = "<group>"; };
-		18CC5D4D1C4355C500372186 /* VoiceImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = VoiceImage.bundle; path = "../../../../../../../../Downloads/ios-sdk-demo-master/Secken_iOS_SDK/example/SeckenDemoAPI/SeckenDemoAPI/VoiceImage.bundle"; sourceTree = "<group>"; };
 		18D5F4261BBB7D140096C84E /* TestFace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestFace.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +117,7 @@
 		189F92001BB023340021E473 /* SeckenDemoAPI */ = {
 			isa = PBXGroup;
 			children = (
-				18CC5D4D1C4355C500372186 /* VoiceImage.bundle */,
+				18193CCB1C48975300187840 /* SeckenImage.bundle */,
 				189F92041BB023340021E473 /* AppDelegate.h */,
 				189F92051BB023340021E473 /* AppDelegate.m */,
 				189F92071BB023340021E473 /* ViewController.h */,
@@ -217,7 +217,7 @@
 				189F92111BB023340021E473 /* LaunchScreen.storyboard in Resources */,
 				189F920E1BB023340021E473 /* Assets.xcassets in Resources */,
 				18D5F4271BBB7D140096C84E /* TestFace.jpg in Resources */,
-				18CC5D4E1C4355C500372186 /* VoiceImage.bundle in Resources */,
+				18193CCC1C48975300187840 /* SeckenImage.bundle in Resources */,
 				189F920C1BB023340021E473 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,7 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/SeckenDemoAPI/Secken",
@@ -362,9 +362,9 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.secken.apisdk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secken.SeckenDemoAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2c27ad7c-67a2-4af7-932e-a7ac732a0caa";
+				PROVISIONING_PROFILE = "";
 				STRIP_BITCODE_FROM_COPIED_FILES = NO;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
@@ -375,7 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/SeckenDemoAPI/Secken",
@@ -393,9 +393,9 @@
 					"$(PROJECT_DIR)/SeckenDemoAPI/SECKEN",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.secken.apisdk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secken.SeckenDemoAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2c27ad7c-67a2-4af7-932e-a7ac732a0caa";
+				PROVISIONING_PROFILE = "";
 				STRIP_BITCODE_FROM_COPIED_FILES = NO;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};

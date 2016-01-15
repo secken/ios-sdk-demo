@@ -370,35 +370,29 @@
     
 }
 
-
 //声纹训练
+
+SeckenVoiceTrain * train = nil;
+
 -(void)clickVoiceTrain:(id)sender {
 
     
-    SCVoiceTrainController * scVoice = [[SCVoiceTrainController alloc] init];
-    scVoice.strToken = self.token;
-    scVoice.strUserName = self.username;
-    scVoice.strTitle = @"声纹训练";
-    
-    scVoice.successBlock = ^(id operation){
-
-        //提示声纹训练成功
-        UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Tip OK(提示成功)" message:[operation description] delegate:nil cancelButtonTitle:@"OK(确定)" otherButtonTitles:nil];
+    train = [[SeckenVoiceTrain alloc] initWithFrame:self.view.bounds];
+    train.resultBlock = ^void(id operation){
+       
+        UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Tip (提示)" message:[operation description] delegate:nil cancelButtonTitle:@"OK(确定)" otherButtonTitles:nil];
         [al show];
         
-        //
-        [self.navigationController popViewControllerAnimated:YES];
-        
     };
-    scVoice.failBlock = ^(id operation){
-        
-        UIAlertView * al = [[UIAlertView alloc] initWithTitle:@"Tip NO(提示失败)" message:[operation description] delegate:nil cancelButtonTitle:@"OK(确定)" otherButtonTitles:nil];
-        [al show];
+    [self.view addSubview:train];
+    [train.cancelBtn addTarget:self action:@selector(clickTrainRemove) forControlEvents:UIControlEventTouchUpInside];
+}
 
-    
-    };
-    
-    [self.navigationController pushViewController:scVoice animated:YES];
+-(void)clickTrainRemove{
+
+    if (train != nil) {
+        [train removeFromSuperview];
+    }
 }
 
 

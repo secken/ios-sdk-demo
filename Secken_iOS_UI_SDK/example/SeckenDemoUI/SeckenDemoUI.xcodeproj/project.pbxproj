@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18193CD11C489AE800187840 /* SeckenImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18193CD01C489AE800187840 /* SeckenImage.bundle */; };
 		181EFFE51BCFEB9600619D19 /* SeckenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EFFE41BCFEB9600619D19 /* SeckenSDK.framework */; };
 		181EFFE61BCFEB9600619D19 /* SeckenSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 181EFFE41BCFEB9600619D19 /* SeckenSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		181EFFE91BCFEBA600619D19 /* SeckenUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EFFE81BCFEBA600619D19 /* SeckenUI.framework */; };
@@ -28,7 +29,6 @@
 		18C742F61BCE69A800102F14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C742F51BCE69A800102F14 /* AVFoundation.framework */; };
 		18C742F81BCE69AD00102F14 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C742F71BCE69AD00102F14 /* Security.framework */; };
 		18C742FA1BCE69B300102F14 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C742F91BCE69B300102F14 /* libz.tbd */; };
-		18CC5D501C4355FE00372186 /* VoiceImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CC5D4F1C4355FE00372186 /* VoiceImage.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18193CD01C489AE800187840 /* SeckenImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SeckenImage.bundle; sourceTree = "<group>"; };
 		181EFFE41BCFEB9600619D19 /* SeckenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SeckenSDK.framework; path = SeckenDemoUI/SeckenSDK.framework; sourceTree = "<group>"; };
 		181EFFE81BCFEBA600619D19 /* SeckenUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SeckenUI.framework; path = SeckenDemoUI/SeckenUI.framework; sourceTree = "<group>"; };
 		181EFFED1BCFF0F400619D19 /* SeckenDemoUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SeckenDemoUI.entitlements; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		18C742F51BCE69A800102F14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		18C742F71BCE69AD00102F14 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		18C742F91BCE69B300102F14 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		18CC5D4F1C4355FE00372186 /* VoiceImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VoiceImage.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 		18C741621BCE600F00102F14 /* SeckenDemoUI */ = {
 			isa = PBXGroup;
 			children = (
-				18CC5D4F1C4355FE00372186 /* VoiceImage.bundle */,
+				18193CD01C489AE800187840 /* SeckenImage.bundle */,
 				181EFFED1BCFF0F400619D19 /* SeckenDemoUI.entitlements */,
 				18C741661BCE600F00102F14 /* AppDelegate.h */,
 				18C741671BCE600F00102F14 /* AppDelegate.m */,
@@ -232,7 +232,7 @@
 				181EFFEB1BCFEBB200619D19 /* SeckenSDK.framework in Resources */,
 				18C741731BCE600F00102F14 /* LaunchScreen.storyboard in Resources */,
 				18C741701BCE600F00102F14 /* Assets.xcassets in Resources */,
-				18CC5D501C4355FE00372186 /* VoiceImage.bundle in Resources */,
+				18193CD11C489AE800187840 /* SeckenImage.bundle in Resources */,
 				18C7416E1BCE600F00102F14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

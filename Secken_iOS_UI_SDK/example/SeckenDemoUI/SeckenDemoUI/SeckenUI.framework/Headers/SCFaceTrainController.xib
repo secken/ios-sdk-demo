@@ -76,14 +76,14 @@
                     </constraints>
                     <variation key="default">
                         <mask key="constraints">
-                            <exclude reference="RN0-Qg-Wlf"/>
                             <exclude reference="6cS-uV-ngz"/>
+                            <exclude reference="RN0-Qg-Wlf"/>
                         </mask>
                     </variation>
                     <variation key="heightClass=compact-widthClass=compact">
                         <mask key="constraints">
-                            <include reference="RN0-Qg-Wlf"/>
                             <include reference="6cS-uV-ngz"/>
+                            <include reference="RN0-Qg-Wlf"/>
                         </mask>
                     </variation>
                 </imageView>
