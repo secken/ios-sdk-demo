@@ -22,5 +22,6 @@
 
 @property (nonatomic, strong)   UILabel     * titleLab;     //导航的标题 (Title)
 @property (nonatomic, strong)   UIButton    * cancelBtn;    //取消按钮  (Cancel)
+@property (nonatomic)           BOOL        * isNotShowAlertEnd;    //在结束的时候是否显示alert提示（if YES The Confirm End Show AlertView. Default value is No）
 
 @end

@@ -57,6 +57,13 @@
     tfAppID.placeholder = @"您的APP ID";
     tfUsername.placeholder = @"用户名";
     
+    
+    tfAppID.text = @"IXgdZ1A7CFUej2ytUbVjFJKS5ICiorw4";
+    tfAppKey.text = @"ELD0DNzMYep7m6Uo1v3v";
+    
+    tfUsername.text = @"yanxing";
+    
+    
     if (tfAppKey.text.length >= 1 && tfAppID.text.length >= 1 && tfUsername.text.length >= 1) {
         
         btn.userInteractionEnabled = YES;
