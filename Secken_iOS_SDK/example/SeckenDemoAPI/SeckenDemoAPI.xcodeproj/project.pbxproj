@@ -14,6 +14,9 @@
 		1863FC351BB560F50014389F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1863FC341BB560F40014389F /* MobileCoreServices.framework */; };
 		1863FC411BB566CE0014389F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1863FC401BB566CE0014389F /* UIKit.framework */; };
 		1863FC431BB566D90014389F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1863FC421BB566D90014389F /* Foundation.framework */; };
+		1875F43B1C55DEE900DCECB8 /* SeckenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1875F43A1C55DEE900DCECB8 /* SeckenSDK.framework */; };
+		1875F43C1C55DEE900DCECB8 /* SeckenSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1875F43A1C55DEE900DCECB8 /* SeckenSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1875F43E1C55DEF100DCECB8 /* SeckenSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 1875F43A1C55DEE900DCECB8 /* SeckenSDK.framework */; };
 		189F92031BB023340021E473 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F92021BB023340021E473 /* main.m */; };
 		189F92061BB023340021E473 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F92051BB023340021E473 /* AppDelegate.m */; };
 		189F92091BB023340021E473 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F92081BB023340021E473 /* ViewController.m */; };
@@ -22,21 +25,18 @@
 		189F92111BB023340021E473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F920F1BB023340021E473 /* LaunchScreen.storyboard */; };
 		189F921F1BB024160021E473 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F921E1BB024160021E473 /* MainViewController.m */; };
 		189F922B1BB02A890021E473 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F922A1BB02A890021E473 /* libz.tbd */; };
-		18C740941BCD1D0F00102F14 /* SeckenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; };
-		18C740951BCD1D0F00102F14 /* SeckenSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		18C740971BCD1D1800102F14 /* SeckenSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 18C740931BCD1D0F00102F14 /* SeckenSDK.framework */; };
 		18D5F4271BBB7D140096C84E /* TestFace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D5F4261BBB7D140096C84E /* TestFace.jpg */; };
 		18ED40931BC76A2100D80790 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800D96F1BBBBD84006809D2 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		18C740961BCD1D0F00102F14 /* Embed Frameworks */ = {
+		1875F43D1C55DEE900DCECB8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				18C740951BCD1D0F00102F14 /* SeckenSDK.framework in Embed Frameworks */,
+				1875F43C1C55DEE900DCECB8 /* SeckenSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +52,7 @@
 		1863FC341BB560F40014389F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1863FC401BB566CE0014389F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1863FC421BB566D90014389F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1875F43A1C55DEE900DCECB8 /* SeckenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SeckenSDK.framework; path = SeckenDemoAPI/SeckenSDK.framework; sourceTree = "<group>"; };
 		189F91FE1BB023340021E473 /* SeckenDemoAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeckenDemoAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189F92021BB023340021E473 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		189F92041BB023340021E473 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,7 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18ED40931BC76A2100D80790 /* Security.framework in Frameworks */,
-				18C740941BCD1D0F00102F14 /* SeckenSDK.framework in Frameworks */,
+				1875F43B1C55DEE900DCECB8 /* SeckenSDK.framework in Frameworks */,
 				1800D96E1BBBBA56006809D2 /* AudioToolbox.framework in Frameworks */,
 				1800D9461BBB9E90006809D2 /* AVFoundation.framework in Frameworks */,
 				1863FC431BB566D90014389F /* Foundation.framework in Frameworks */,
@@ -92,6 +93,7 @@
 		189F91F51BB023340021E473 = {
 			isa = PBXGroup;
 			children = (
+				1875F43A1C55DEE900DCECB8 /* SeckenSDK.framework */,
 				18C740931BCD1D0F00102F14 /* SeckenSDK.framework */,
 				1800D96F1BBBBD84006809D2 /* Security.framework */,
 				1800D9581BBBAFE4006809D2 /* AudioToolbox.framework */,
@@ -160,7 +162,7 @@
 				189F91FA1BB023340021E473 /* Sources */,
 				189F91FB1BB023340021E473 /* Frameworks */,
 				189F91FC1BB023340021E473 /* Resources */,
-				18C740961BCD1D0F00102F14 /* Embed Frameworks */,
+				1875F43D1C55DEE900DCECB8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,7 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C740971BCD1D1800102F14 /* SeckenSDK.framework in Resources */,
+				1875F43E1C55DEF100DCECB8 /* SeckenSDK.framework in Resources */,
 				189F92111BB023340021E473 /* LaunchScreen.storyboard in Resources */,
 				189F920E1BB023340021E473 /* Assets.xcassets in Resources */,
 				18D5F4271BBB7D140096C84E /* TestFace.jpg in Resources */,
